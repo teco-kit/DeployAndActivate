@@ -1,0 +1,9 @@
+[submodule "appool"]
+	path = appool
+	url = https://github.com/tequnix/appool.git
+[submodule "berry"]
+	path = berry
+	url = https://github.com/tequnix/berry.git
+[submodule "logitag"]
+	path = logitag
+	url = https://github.com/tequnix/logitag.git
