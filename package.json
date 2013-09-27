@@ -1,0 +1,17 @@
+{
+  "name": "webservices",
+  "version": "0.0.1",
+  "description": "A collection of webservices",
+  "scripts": {
+    "preinstall": "git submodule foreach git pull origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tequnix/test.git"
+  },
+  "author": "Daniel",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tequnix/test/issues"
+  }
+}
