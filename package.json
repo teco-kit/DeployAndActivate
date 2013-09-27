@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A collection of webservices",
   "scripts": {
-    "preinstall": "git submodule foreach git pull origin master"
+    "preinstall": "git submodule update --init"
   },
   "repository": {
     "type": "git",
