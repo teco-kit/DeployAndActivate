@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A collection of webservices",
   "scripts": {
-    "preinstall": "git submodule update --init"
+	"preupdate": "git submodule foreach git status",
+    "preinstall": "git submodule update --init",
+    "postinstall": "git submodule foreach npm install"
   },
   "repository": {
     "type": "git",
